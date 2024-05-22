@@ -1,0 +1,7 @@
+services: 
+  web:
+    image: tomcat:9
+    ports:
+      - 8080:8080
+    volumes:
+      - ./wars:/usr/local/tomcat/webapps
